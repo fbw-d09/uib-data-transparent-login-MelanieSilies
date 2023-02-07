@@ -1,0 +1,77 @@
+.body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container {
+	width: 350px;
+}
+
+.header {
+	text-align: center;
+	padding-top: 75px;
+}
+
+.header h1 {
+	color: #FFF;
+	font-size: 45px;
+	margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid greenyellow;
+}
+
+.form {
+	text-align: center;
+}
+
+.form input, button {
+	width: 300px;
+	height: 40px;
+	border:none;
+	outline: none;
+	padding-left: 40px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #FFF;
+	margin-bottom: 40px;
+    background: transparent;
+}
+
+.form input {
+    border-bottom: 1px solid yellowgreen;
+}
+
+.form button {
+	text-align: center;
+    border-radius: 5px;
+    border: 2px solid yellowgreen;
+}
+
+.form button:hover {
+	background:transparent;
+}
+
+.form input:hover {
+    font-weight: bold;
+}
+
+.form input:focus ::placeholder {
+    font-weight: 900;
+}
+
+.form span {
+	position: relative;
+}
+
+.form i {
+	position: absolute;
+	left: 15px;
+	color: #FFF;
+	font-size: 16px;
+	top: 5px;
+}
