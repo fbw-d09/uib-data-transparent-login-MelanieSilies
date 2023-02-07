@@ -60,7 +60,7 @@
     font-weight: bold;
 }
 
-.form input:focus {
+.form input:focus ::placeholder {
     font-weight: 900;
 }
 
