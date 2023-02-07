@@ -1,6 +1,5 @@
 .body {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.902));
-    background-image: url(./jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -62,7 +61,7 @@
 }
 
 .form input:focus {
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .form span {
